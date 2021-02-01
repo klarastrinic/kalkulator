@@ -1,0 +1,62 @@
+.main {
+    margin: auto;
+    width: 17%;
+    padding: 10px;
+    position: relative;
+    right: 50px;
+    border: #5b59c9;
+    border-radius: 10px;
+    border-style: groove;
+    box-sizing: border-box;
+    background: rgb(44,43,138);
+background: linear-gradient(90deg, rgba(44,43,138,1) 0%, rgba(91,89,201,1) 59%, rgba(37,36,130,1) 100%);
+top: 80px;
+
+}
+.button {
+    border-radius: 8px;
+    width: 40px;
+    border: 2px solid #274877;
+    transition-duration: 0.4s;
+    background-color: #06162c;
+    color: #aca9ab;
+    height: 30px;
+    box-shadow: 2px 2px grey;
+}
+.button:hover {
+    background-color: #cd65a9; /* Green */
+    color: black;
+}
+#abc {
+    width: 70px;
+}
+#xyz {
+    width: 70px;
+}
+
+body {
+    background: rgb(0,0,0);
+background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(39,39,61,1) 59%, rgba(0,0,0,1) 100%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+html *
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+
+}
+
+#jednako {
+    width: 250%;
+}
+
+.t {
+background-color: rgb(177, 201, 247);
+border: #5b59c9;
+    border-radius: 10px;
+    border-style: groove;
+    width: 90%;
+height: 30px;
+text-align: center;
+}

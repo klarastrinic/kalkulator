@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Klarin kalkulator</title>
+		<link rel="stylesheet" href="styles.css" >
+		
+
+	</head>
+	<body>
+   <div class ="main">
+	<form name="form">   <input class="t" id="txt" type="text">
+	
+	</form>
+	
+	
+	<table>
+	<tr>
+	   <td colspan="2">
+		   <input id="abc" class="button" onclick="nazad()"type="button" value="NAZAD"></td>
+	   <td><input id="xyz" class="button" onclick="obrisi()"type="button" value="OBRIŠI"></td>
+		</tr>
+		</table>
+		<table>
+		</tr> 
+		
+		
+		
+		
+	</tr>
+	
+		<tr>
+		<td> <input class="button" type="button" value=1 onclick="add(1)" id="br"></td>
+		<td> <input  class="button" type="button" value=2 onclick="add(2)" id="br"></td>
+		<td> <input class="button" type="button" value=3 onclick="add(3)" id="br"></td>
+		<td><input class="button" onclick="add('+')"type="button" value="+"></td>
+		</tr>
+		</tr>
+		<tr>
+		<td> <input class="button" type="button" value=4 onclick="add(4)" id="br"></td>
+		<td> <input class="button" type="button" value=5 onclick="add(5)" id="br"></td>
+		<td> <input class="button" type="button" value=6 onclick="add(6)" id="br"></td>
+		<td><input class="button" onclick="add('-')"type="button" value=" -" id="br"></td>
+		</tr>
+		</tr>
+		<tr>
+		<td> <input class="button" type="button" value=7 onclick="add(7)" id="br"></td>
+		<td><input class="button" type="button" value="8" onclick="add(8)"></td>
+		<td> <input  class="button" type="button" value=9 onclick="add(9)" id="br"></td>
+		<td><input class="button" onclick="add('*')"type="button" value="x"></td>
+		</tr>
+		
+		 <tr>
+			 <td><input class="button" onclick="add(0)"type="button" value="0" id="br"></td>
+			<td><input class="button" onclick="add('.')"type="button" value="• " id="br"></td>
+	      <td><input class="button" type="button" value="sin" onclick="sin()"></td>
+	   <td><input class="button" onclick="add('/')"type="button" value="÷"></td>
+	   </tr>
+	   <tr>
+	
+	  <td> <input class="button" type="button" value="cos" onclick="cos()"></td>
+	 <td><input class="button" id="kaka" type="button" value="tag" onclick="tan()"></td>
+	 <td><input class="button" type="button" value="cot" onclick="cot()"></td>
+	 <td><input class="button" type="button" value="√" onclick="sqrt()"></td>
+	</tr>
+	 
+	 <td><input class="button" type="button" value="log" onclick="log()" ></td>
+	 <td><input class="button" id="jednako" onclick="calculate()"type="button" value="="></td>
+	 
+		</tr>
+		</tr>	 
+		</tr> 
+			 
+			 
+		</tr>
+		 </tr>
+	</table>
+		
+		
+	</div>
+	<div id="demo"></div>
+	<script src="script.js"></script>	
+	</body>
+	
+	
+</html>	
