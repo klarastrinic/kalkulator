@@ -3,28 +3,28 @@
     width: 17%;
     padding: 10px;
     position: relative;
-    right: 50px;
-    border: #5b59c9;
+    left: 0%;
+    border: #4b4b4b;
     border-radius: 10px;
     border-style: groove;
     box-sizing: border-box;
-    background: rgb(44,43,138);
-background: linear-gradient(90deg, rgba(44,43,138,1) 0%, rgba(91,89,201,1) 59%, rgba(37,36,130,1) 100%);
+    background: rgb(111,109,105);
+background: linear-gradient(270deg, rgba(111,109,105,1) 0%, rgba(42,42,38,1) 59%, rgba(33,33,33,1) 100%);
 top: 80px;
 
 }
 .button {
     border-radius: 8px;
     width: 40px;
-    border: 2px solid #274877;
+    border: 2px solid #1c2521;
     transition-duration: 0.4s;
-    background-color: #06162c;
-    color: #aca9ab;
+    background-color: #000e03;
+    color: #809286;
     height: 30px;
-    box-shadow: 2px 2px grey;
+    box-shadow: 2px 2px rgb(70, 68, 68);
 }
 .button:hover {
-    background-color: #cd65a9; /* Green */
+    background-color: #567749; /* Green */
     color: black;
 }
 #abc {
@@ -35,9 +35,10 @@ top: 80px;
 }
 
 body {
-   background-image: url("image.jpg");
+    background-image: url("image.jpg");
     background-size: 100% 100%;
     background-size: cover;
+    
 }
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
 
@@ -53,8 +54,8 @@ html *
 }
 
 .t {
-background-color: rgb(177, 201, 247);
-border: #5b59c9;
+background-color: rgb(190, 190, 162);
+border: #1c4629;
     border-radius: 10px;
     border-style: groove;
     width: 90%;
