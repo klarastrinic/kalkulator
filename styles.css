@@ -4,12 +4,12 @@
     padding: 10px;
     position: relative;
     left: 0%;
-    border: #4b4b4b;
+   border: #8d7952;
     border-radius: 10px;
     border-style: groove;
     box-sizing: border-box;
     background: rgb(111,109,105);
-background: linear-gradient(186deg, rgba(111,109,105,1) 0%, rgba(162,138,85,1) 59%, rgba(33,33,33,1) 100%);
+    background: linear-gradient(294deg, rgba(111,109,105,1) 0%, rgba(98,88,65,1) 0%, rgba(212,186,132,1) 0%, rgba(33,33,33,1) 100%);
 top: 80px;
 
 }
@@ -55,7 +55,7 @@ html *
 
 .t {
 background-color: rgb(190, 190, 162);
-border: #1c4629;
+border:#8d7952;
     border-radius: 10px;
     border-style: groove;
     width: 90%;
