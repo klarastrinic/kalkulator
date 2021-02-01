@@ -35,8 +35,9 @@ top: 80px;
 }
 
 body {
-    background: rgb(0,0,0);
-background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(39,39,61,1) 59%, rgba(0,0,0,1) 100%);
+   background-image: url("image.jpg");
+    background-size: 100% 100%;
+    background-size: cover;
 }
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
 
